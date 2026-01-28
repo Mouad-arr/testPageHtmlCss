@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('Images/bg.png');
+    background-color: hsl(0, 0%, 85%);
+    font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: hsl(0, 0%, 33%);
+    position: sticky;
+    top:0;
+    margin-bottom: 20px;
+}
+nav{
+    width: 100vw;
+    background-color: hsl(0, 0%, 33%);
+    display: flex;
+    gap:10px;
+    padding-top:10px;
+    padding-left:15px ;
+    color: white;
+}
+nav h2{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 10px white;
+    margin-right: 20px;
+    padding: 15px;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color:white;
+    padding: 15px;
+}
+nav a:hover{
+    background-color: white;
+    color:black;
+}
+nav a.active{
+    background-color: rgb(61, 179, 139);
+}
+section{
+    justify-content: center;
+    margin: 10px auto;
+    display:flex;
+    gap:20px;
+    align-items: center;
+}
+section img{
+    max-width: 30vw;
+    height: auto;
+}
+.content{
+    text-align: center;
+    max-width: 30vw;
+}
+.content h1{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color:rgb(34, 30, 30);
+}
+.content{
+    color:rgb(73, 72, 72);
+    padding: 10px;
+    font-weight: bold;
+}
+.product{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.products{
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.product img{
+    width:60%;
+    margin: 10px ;
+}
+.titre{
+    padding: 5px;
+}
+.prix{
+    font-weight: bold;
+    padding: 5px;
+}
+.description{
+    padding: 5px;
+
+}
+footer{
+    background-color: rgb(56, 56, 56);
+    width: 100%;
+    padding: 10px;
+    margin : 5px;
+    color:white;
+}
+form{
+    margin: 10px;
+}
+input{
+    display: block;
+    margin: 5px;
+    margin-left: 6px;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+}
+input[type="submit"]{
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
